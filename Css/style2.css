@@ -29,7 +29,8 @@
     transition: all 0.4s;
 }
 
-.card-img {
+
+/* .card-img{
     height: 40%;
     width: 45%;
     border-radius: 100%;
@@ -37,6 +38,28 @@
     text-align: center;
     margin-top: 20px;
     transition: all 0.5s;
+    overflow: visible;
+} */
+
+#circle {
+    /* background: skin-tone.jpg; */
+    text-align: center;
+    margin-top: 20px;
+    background-size: cover;
+    border-radius: 50% 50% 50% 50%;
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s;
+}
+
+.bestmentor:hover #circle {
+    background-size: cover;
+    border-radius: 50% 50% 50% 50%;
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s;
+    text-align: center;
+    margin-top: -10px;
     overflow: visible;
 }
 
@@ -46,7 +69,8 @@
     width: 17rem;
 }
 
-.bestmentor:hover .card-img {
+
+/* .bestmentor:hover .card-img{
     height: 40%;
     width: 45%;
     border-radius: 100%;
@@ -54,7 +78,7 @@
     text-align: center;
     margin-top: -10px;
     overflow: visible;
-}
+} */
 
 .mentortitle {
     color: #4D4887;
