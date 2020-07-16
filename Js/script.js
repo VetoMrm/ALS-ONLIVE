@@ -7,6 +7,9 @@ $(document).ready(function() {
         itemMobile: [650, 1],
         pagination: true,
         autoPlay: true,
+        dots: true,
+        autoPlayTime: 3000,
+        autoPlayHoverPause: true,
     })
 })
 
@@ -19,5 +22,8 @@ $(document).ready(function() {
         itemMobile: [650, 1],
         pagination: true,
         autoPlay: true,
+        dots: true,
+        autoPlayTime: 3000,
+        autoPlayHoverPause: true,
     })
 })
